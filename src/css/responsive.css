@@ -250,8 +250,21 @@
     /* hamburguer - cabecalho */
 
     .cabecalho{
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        padding: 10px 10px;
+
+    }
+
+    
+
+    .cabecalho .logo .imagem{
+        width: 60px;
+    }
+
+    .cabecalho .logo .nome{
+        padding: 8px;
+        font-size: 12px;
     }
 
     .cabecalho .navegacao .menu{
